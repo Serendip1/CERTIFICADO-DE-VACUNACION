@@ -1,37 +1,162 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/app/img/favicon.ico"/>
 
-You can use the [editor on GitHub](https://github.com/Serendip1/CERTIFICADO-DE-VACUNACION/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+    <title>VacunatePBA</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;700&family=Raleway:wght@400;600;700&display=swap"
+                rel="stylesheet">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+                integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      
+          <style>
+              body {
+                  font-family: "Encode Sans", sans-serif;
+              }
+              .footer {
+                  background: #00b1c7;
+                  border-top: none;
+                  text-align: center;
+              }
+              .invalida {
+                  color: #ee3e4f;
+              }
+              .dosis {
+                  font-size: clamp(1.25rem, 2vw, 1.5rem);;
+                  font-weight: 600;
+                  color: #fff;
+                  background-color: #e81f76;
+                  padding: .5rem;
+                  border-radius: .35rem;
+              }
+              h5 {
+                  font-size: clamp(1.25rem, 2vw, 1.75rem);
+                  font-weight: normal;
+              }
+              h4 {
+                  font-size: clamp(1.5rem, 2vw, 2rem);
+                  font-weight: 600;
+                  line-height: 1.2;
+              }
+              .bg-ms {
+                  background: #00b1c7;
+              }
+              .info {
+                  background: #fafafa
+              }
+              .col-4, .col-8 {
+                  flex: 0 0 100%;
+                  max-width: 100%;
+              }
+              @media only screen and (orientation: landscape) {
+                  .col-4 {
+                      flex: 0 0 33.333333%;
+                      max-width: 33.333333%;
+                  }
+                  .col-8 {
+                      flex: 0 0 66.666667%;
+                      max-width: 66.666667%;
+                  }
+                  .info {
+                      margin: 0;
+                  }
+                  .header {
+                      background:url("encabezado.jpg") no-repeat center center;
+                      background-size: cover;
+                      height: 100%;
+                      padding-top: 180%;
+                      width: 100%;
+                  }
+                  .footer {
+                      display: none;
+                  }
+              }
+              @media only screen and (min-width: 1200px),
+              (orientation: portrait) {
+                  .col-4, .col-8 {
+                      flex: 0 0 100%;
+                      max-width: 100%;
+                  }
+                  .header {
+                      background: url("encabezado.jpg") no-repeat center center;
+                      background-size: cover;
+                      height: 0;
+                      margin-bottom: .25rem;
+                      padding-top: 45%;
+                      width: 100%;
+                  }
+                  .footer {
+                      display: block;
+                  }
+                  /*.info {*/
+                  /*    margin: .5rem .25rem;*/
+                  /*}*/
+              }
+          </style>
+   
+ </head>  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <body>
+        
+        <div class="container-fluid container-lg p-1">
+            <div class="d-flex justify-content-center">
+                <div class="card col-12 col-lg-8 p-0 bg-ms">
+                    <div class="row no-gutters">
+                        <div class="col-4">
+                            <div class="img-fluid header"></div>
+                        </div>
+                        <div class="col-8 col-sm-8 info">
+                            <div class="card-body">
+                                                                <h5 class="text-dark">Nombre y apellido</h5>
+                                    <h4 class="mb-4">LUZ GONZALEZ AROSTEGUI</h4>
+                                    <h5 class="text-dark">Documento</h5>
+                                    <h4 class="mt-2 mb-3">47.144.213</h4>
+                                
+                                                                <h5 class="dosis">
+                                        PRIMERA DOSIS
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5 class="p-1 mb-0">Vacuna</h5>
+                                            <h5 class="pl-1 mb-4 font-weight-bold">Sinopharm</h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5 class="p-1 mb-0">Fecha</h5>
+                                            <h5 class="pl-1 mb-4 font-weight-bold">22/12/2021</h5>
+                                        </div>
+                                    </div>
+                                                                <h5 class="dosis">
+                                        SEGUNDA DOSIS
+                                    </h5>
+                                    <div class="row">
+                                        <div class="col">
+                                            <h5 class="p-1 mb-0">Vacuna</h5>
+                                            <h5 class="pl-1 mb-4 font-weight-bold">Sinopharm</h5>
+                                        </div>
+                                        <div class="col">
+                                            <h5 class="p-1 mb-0">Fecha</h5>
+                                            <h5 class="pl-1 mb-4 font-weight-bold">25/01/2021</h5>
+                                        </div>
+                                    </div>
+                                                        </div>
+                        </div>
+                    </div>
+                    <div class="card-footer footer">
+                        <img src="/app/img/logo-ms.png" alt="logo-ministerio-ba" class="img-fluid"
+                             style="max-height:4.5rem">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body> 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Serendip1/CERTIFICADO-DE-VACUNACION/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
